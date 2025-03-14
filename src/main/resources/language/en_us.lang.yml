@@ -1,0 +1,21 @@
+# Prefix which will be shown before all the messages.
+prefix: "<gold>OnlyMace <gray>»<white>"
+help-title: "<gold>Help: <b>%command%"
+# Messages for commands:
+commands:
+  # /onlymace reload
+  reload: "<green>Configurations and languages reloaded."
+    # /onlymace locate
+  locate:
+    searching: "<gray>Searching for the Mace..."
+    found:
+      inventory: "<gray>The Mace is in the inventory of <white>%player%<gray>."
+      ender-chest: "<gray>The Mace is in the Ender Chest of <white>%player%<gray>."
+      storage-animal: "<gray>The Mace is on a storage animal at coordinates <white>%x%<gray>, <white>%y%<gray>, <white>%z%<gray> in the world <white>%world%<gray>."
+      storage-minecart: "<gray>The Mace is in a storage minecart at coordinates <white>%x%<gray>, <white>%y%<gray>, <white>%z%<gray> in the world <white>%world%<gray>."
+      chest-boat: "<gray>The Mace is in a chest boat at coordinates <white>%x%<gray>, <white>%y%<gray>, <white>%z%<gray> in the world <white>%world%<gray>."
+      dropped-item: "<gray>The Mace is dropped at coordinates <white>%x%<gray>, <white>%y%<gray>, <white>%z%<gray> in the world <white>%world%<gray>."
+      container: "<gray>The Mace is in a container at coordinates <white>%x%<gray>, <white>%y%<gray>, <white>%z%<gray> in the world <white>%world%<gray>."
+      offline-player: "<gray>The Mace is in an offline player's inventory (UUID: <white>%uuid%<gray>)."
+    not-found: "<gray>The Mace is either missing or  in an unloaded chunk."
+

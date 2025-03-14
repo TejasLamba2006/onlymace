@@ -1,0 +1,30 @@
+name: onlymace
+version: "${version}"
+main: org.tejaslamba2006.onlymace.OnlyMacePlugin
+description: A specialized plugin for managing the Mace, its ownership, and related features.
+api-version: 1.13
+authors: [TejasLamba2006]
+depend:
+  - BlueSlimeCore
+softdepend:
+  - PlaceholderAPI
+commands:
+  onlymace:
+    description: Primary command to interact with the OnlyMace plugin.
+    usage: /onlymace
+    permission: onlymace
+
+permissions:
+  onlymace:
+    description: Grants access to the /onlymace command and its features.
+    default: op
+features:
+  - Enforces the creation, ownership, and unique management of the Mace, ensuring no duplicates exist.
+  - Tracks offline players to prevent crafted Maces from overlapping with existing ones.
+  - Supports broadcasting important events like when the Mace is created or lost.
+
+additional-notes:
+  - Requires BlueSlimeCore to function correctly.
+  - PlaceholderAPI integration is optional for advanced placeholders in messages.
+  - Fully customizable via external configuration, allowing tailored experience to server needs.
+  - Suitable for servers wanting to include a rare, powerful, or story-driven item into their gameplay.

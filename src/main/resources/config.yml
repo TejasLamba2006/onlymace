@@ -1,0 +1,9 @@
+isMaceMade: false  # This turns true once the Mace is created
+MaceHolder: null  # Keeps the UUID of the person who currently owns it, or null if no one owns it
+showMaceAlerts: true  # If set to true, messages are shown when the Mace is created or lost
+
+# Keeps track of whether an offline player logged out with the Mace.
+# If true, it means the Mace is either in their inventory or Ender Chest at the time they logged out.
+# This helps stop the Mace from being created again if it’s still with an offline player.
+# The data is updated automatically when a player logs out or the server shuts down.
+offlinePlayerData: {}
